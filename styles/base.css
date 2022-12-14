@@ -230,6 +230,27 @@ div.hero {
             margin-top: 15px;
             width: 200px;
         }
+
+        .reserve-hero-1 {
+            height: 620px;
+            background: url(../images/produce.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        
+        .reserve-trans-banner-1 {
+            height: 293px;
+            background: rgba(10, 161, 221, 0.9);
+            position: relative;
+            margin: 0 auto;
+            left: 0%;
+            top: 200px;
+            text-align: center;
+            width: 430px;
+            padding: 55px 20px 0 20px;
+        }
         /* <!-- ------------------------------Won't Miss Home Section ------------------------ --> */
         
         .temple-hero {
@@ -245,8 +266,8 @@ div.hero {
             position: relative;
             top: 100px;
             left: 9%;
-            width: 250px;
-            height: 400px;
+            width: 700px;
+            height: 940px;
             padding: 45px 30px 30px 30px;
             margin-left: 0;
         }
@@ -429,7 +450,7 @@ footer {
 
 /* styling the main page */
 .temple-trans-banner {
-    background: rgba(130, 78, 10);
+    background: rgba(10, 161, 221, 0.9);
     position: relative;
     top: 100px;
     left: 15%;
@@ -543,7 +564,7 @@ footer {
   /* <!-- ------------------------------Footer------------------------ --> */
         
   footer {
-    background: rgba(0, 61, 121, 0.9);
+    background: rgba(10, 161, 221, 0.9);
 }
 
 .footer-container {
