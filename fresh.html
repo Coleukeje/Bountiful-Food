@@ -56,68 +56,73 @@
     </header>
     <main id="temple-main">
         <div class="reservation-container">
-            <h3>Welcome to the fruits page! Here you can chose the type of fruit you want to add to your drink</h3>
-
-            <div class="temple-reservation-form-container">
-                <h3>Order Form</h3>
-                <form class="reservation-form" action="./fresh-thank-you.html" method="get">
-                    <label>
-              First Name
+          <h1>Choose a drink</h1>
+  
+          <div class="temple-reservation-form-container">
+            <h3>Drink Form</h3>
+            <form class="reservation-form" action="./reserved.html" method="get">
+              <label>
+                First Name
+                <input
+                  type="text"
+                  name="firstname"
+                  pattern="^[A-Za-z -]{1,}$"
+                  required
+              /></label>
+              <label>
+                Last Name
+                <input
+                  type="text"
+                  name="lastname"
+                  pattern="^[A-Za-z -]{1,}$"
+                  required
+              /></label>
+              <label> E-mail <input type="email" name="email" required /></label>
+              <label>
+                Phone Number
+                <input type="tel" name="telephone" pattern="^[0-9]{5,}$" required
+              /></label>
+              <label>
+                Location
+                <input
+                  type="text"
+                  name="hometown"
+                  pattern="^[A-Za-z -]{1,}$"
+                  required
+              /></label>
+              <label>
+                Drink Type
+                <select class="form-temple-list" name="temples">
+                  <option value="aba">Apple</option>
+                  <option value="accra">Pineapple</option>
+                  <option value="johannesburg">Coconut</option>
+                  <option value="curitiba">Grape</option>
+                </select></label
+              >
+              <label> Date <input type="date" name="date" required /></label>
+              <label>
+                Number of Drinks 
+                <select class="form-temple-list" name="rooms">
+                  <option value="single">1</option>
+                  <option value="double">2</option>
+                  <option value="quad">3</option>
+                  <option value="king">4</option>
+                </select></label>
+                 <label
+                >Comments
+                <textarea name="reservationcomment" cols="30" rows="5"></textarea>
+              </label>
               <input
-                type="text"
-                name="firstname"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-                    <label>
-              Last Name
-              <input
-                type="text"
-                name="lastname"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-                    <label> E-mail <input type="email" name="email" required /></label>
-                    <label>
-              Phone Number
-              <input type="tel" name="telephone" pattern="^[0-9]{5,}$" required
-            /></label>
-                    <label>
-              Location
-              <select class="form-temple-list" name="places">
-                <option value="San Diego">San Diego</option>
-                <option value="Los Angeles">Los Angeles</option>
-                <option value="Carlsbad">Carlsbad</option>
-                <option value="Santa Catalina">Santa Catalina</option>
-              </select></label
-            >
-            <label> Date <input type="date" name="date" required /></label>
-                    <label>
-              Type of Fruit
-              <select class="form-temple-list" name="fruits">
-                <option value="apple">Apple</option>
-                <option value="Banana">Banana</option>
-                <option value="blueberry">Blueberry</option>
-                <option value="chery">Cherry</option>
-                <option value="grape">Grape</option>
-                <option value="kiwi">Kiwi</option>
-                <option value="guava">Guava</option>
-                <option value="lemon">Lemon</option>
-              </select></label
-            >
-            <label>
-              Number Of Drink
-              <input type="number" value="1" name="drinknumbers" required
-            /></label>
-
-                    <label>Special Instructions
-              <textarea name="specialcomment" cols="30" rows="5"></textarea>
-            </label>
-                    <input class="reservation-button" type="submit" value="Order Your Drink" />
-                </form>
-            </div>
+                class="reservation-button"
+                type="submit"
+                value="Place Your Order"
+              />
+            </form>
+          </div>
+        </div>
+      </main>
             <div class="services-container-edit">
-              <h1 class="make-blue">Here are some of the many delicacies we offer</h1>
+              <h1 class="make-blue">Varieties of drinks we offer</h1>
   
               <div class="services-grid">
                   <div class="reservation-room">
@@ -220,10 +225,6 @@
           <p class="weather">
             Weather source
             <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
-          </p>
-          <p class="weather">
-            <a href="./attribution.html">Attribution Page</a>
-          </p>
         </div>
       </footer>
       <script src="./scripts/menu.js"></script>

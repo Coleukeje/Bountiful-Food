@@ -15,17 +15,17 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(10, 161, 221, 0.9);
+  box-shadow: inset 0 0 6px rgba(130, 78, 10);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(10, 161, 221, 0.9);
+  background-color: rgba(130, 78, 10);
   outline: none;
 }
 
 /* ----------------------------- Header --------------------------- */
 header {
-  background: rgba(10, 161, 221, 0.9);
+  background: rgba(130, 78, 10);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -47,7 +47,7 @@ nav ul {
 }
 .open ul {
   position: absolute;
-  background-color: rgba(10, 161, 221, 0.9);
+  background-color: rgba(130, 78, 10);
   display: flex;
   flex-direction: column;
   width: -webkit-fill-available;
@@ -65,12 +65,12 @@ nav ul {
 #ham {
   padding: 5px 10px;
   font-size: 20px;
-  color: rgba(10, 161, 221, 0.9);
-  border: 1px solid rgba(10, 161, 221, 0.9);
+  color: rgba(130, 78, 10);
+  border: 1px solid rgba(130, 78, 10);
 }
 
 #ham:hover {
-  background-color: rgba(10, 161, 221, 0.9);
+  background-color: rgba(130, 78, 10);
   color: white;
   border: 1px solid white;
 }
@@ -89,16 +89,16 @@ nav ul li a {
 
 ul li a:hover {
   background-color: white;
-  color: rgba(10, 161, 221, 0.9);
+  color: rgba(130, 78, 10);
 }
 
 ul li .active {
   background-color: white;
-  color: rgba(10, 161, 221, 0.9);
+  color: rgba(130, 78, 10);
 }
 ul li a:active {
   background-color: white;
-  color: rgba(10, 161, 221, 0.9);
+  color: rgba(130, 78, 10);
 }
 /* <---------------------------Home Hero ------------------------------------> */
 
@@ -120,7 +120,7 @@ div.hero {
     width: 100%;
     height: 270px;
     padding: 42px 0 0 0;
-    background: rgba(10, 161, 221, 0.9);
+    background: rgba(130, 78, 10);
     border-radius: 0px 292px 0px 0px;
   }
   h1,
@@ -183,7 +183,7 @@ div.hero {
   /*---------------------------- Select Temple ------------------------------- */
         
         .select-temple {
-            background: rgba(0, 61, 121, 0.84);
+            background: rgba(130, 78, 10);
         }
         
         .selection-grid {
@@ -207,7 +207,7 @@ div.hero {
         }
         
         #temple-list option {
-            background-color: rgba(0, 61, 121, 0.84);
+            background-color: rgba(130, 78, 10);
         }
         
         .selection-info h3 {
@@ -242,7 +242,7 @@ div.hero {
         
         .reserve-trans-banner-1 {
             height: 293px;
-            background: rgba(10, 161, 221, 0.9);
+            background: rgba(130, 78, 10);
             position: relative;
             margin: 0 auto;
             left: 0%;
@@ -262,7 +262,7 @@ div.hero {
         }
         
         .temple-trans-banner {
-            background: rgba(10, 161, 221, 0.9);
+            background:  rgba(130, 78, 10);
             position: relative;
             top: 100px;
             left: 9%;
@@ -301,7 +301,7 @@ div.hero {
         
         .reserve-trans-banner {
             height: 293px;
-            background: rgba(10, 161, 221, 0.9);
+            background:  rgba(130, 78, 10);
             position: relative;
             margin: 0 auto;
             left: 0%;
@@ -337,7 +337,7 @@ div.hero {
         }
         
         .make-reservation:hover {
-            border: 2px dotted rgba(10, 161, 221, 0.9);
+            border: 2px dotted  rgba(130, 78, 10);
             background-color: white;
             color: rgba(10, 161, 221, 0.9);
             cursor: pointer;
@@ -345,7 +345,7 @@ div.hero {
 /* <!-- ------------------------------Footer------------------------ --> */
 
 footer {
-    background: rgba(10, 161, 221, 0.9);
+    background:  rgba(130, 78, 10);
   }
   .footer-container {
     margin: 0 auto;
@@ -397,7 +397,7 @@ footer {
   
   .footer-form-button:hover {
     background-color: white;
-    color: rgba(10, 161, 221, 0.9);
+    color:  rgba(130, 78, 10);;
   }
   
   .footer-form label {
@@ -450,7 +450,7 @@ footer {
 
 /* styling the main page */
 .temple-trans-banner {
-    background: rgba(10, 161, 221, 0.9);
+    background: rgba(130, 78, 10);;
     position: relative;
     top: 100px;
     left: 15%;
@@ -484,7 +484,7 @@ footer {
 /* <--------------------------- Weather ------------------------------------> */
 
 .weather-container {
-    background: rgba(10, 161, 221, 0.9);
+    background:  rgba(130, 78, 10);
     height: 800px;
     width: 100%;
     display: grid;
@@ -564,7 +564,7 @@ footer {
   /* <!-- ------------------------------Footer------------------------ --> */
         
   footer {
-    background: rgba(10, 161, 221, 0.9);
+    background:  rgba(130, 78, 10);
 }
 
 .footer-container {
@@ -619,7 +619,7 @@ footer {
 
 .footer-form-button:hover {
     background-color: white;
-    color: rgba(0, 61, 121, 0.9);
+    color:  rgba(130, 78, 10);
 }
 
 .footer-form label {
@@ -677,7 +677,7 @@ footer {
 /* <!-- ------------------------------Temple Page------------------------ --> */
 
 #temple-main {
-    background: linear-gradient(180deg, #003d79 0%, #ffffff 100%);
+    background: linear-gradient(180deg, #db8a10fd 0%, #a57d28 100%);
 }
 
 .temples-container {
@@ -706,7 +706,7 @@ footer {
 
 .temple-name-overlay {
     position: absolute;
-    background: rgba(0, 61, 121, 0.84);
+    background:  rgba(130, 78, 10);
     right: 0;
     width: 50%;
     height: 25%;
@@ -740,7 +740,7 @@ footer {
 }
 
 .temple-details {
-    background: linear-gradient(180deg, #003d79 0%, #83c2ff 100%);
+    background: linear-gradient(180deg, #db8a10fd 0%, #806223 100%);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.85);
     padding: 25px 25px;
 }
@@ -815,14 +815,14 @@ footer {
 }
 
 .temple-closure ul li {
-    color: #003d79;
+    color: #db8a10fd;
     font-weight: 600;
     padding-right: 45px;
 }
 /* <!-- ------------------------------Reservation Page------------------------ --> */
 
 .temple-reservation-form-container {
-    background: linear-gradient(180deg, #003d79 0%, #83c2ff 100%);
+    background: linear-gradient(180deg, #db8a10fd 0%, #9e7a43 100%);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.85);
     margin: 0 auto 120px auto;
     padding: 45px 0;
@@ -838,8 +838,8 @@ footer {
 }
 
 .reservation-form input:required {
-    border-right: 5px solid red;
-    border-left: 5px solid red;
+    border-right: 5px solid rgba(189, 159, 76, 0.322);
+    border-left: 5px solid rgba(189, 159, 76, 0.322);
 }
 
 .reservation-form input:required:valid {
@@ -904,20 +904,20 @@ footer {
 }
 
 .form-temple-list option {
-    background-color: rgba(0, 61, 121, 0.84);
+    background-color:rgba(130, 78, 10);;
 }
 
 .reservation-button {
     background-color: transparent;
     padding: 10px 0;
     width: 100%;
-    border: 2px solid rgba(0, 61, 121, 0.84);
+    border: 2px solid rgba(130, 78, 10);
     font-size: 17px;
 }
 
 .reservation-button:hover {
     background-color: white;
-    color: rgba(0, 61, 121, 0.84);
+    color: rgba(130, 78, 10);
 }
 /* <!-- ------------------------------Services Page------------------------ --> */
 
@@ -980,12 +980,12 @@ footer {
 }
 
 .make-blue {
-    color: #003d79;
+    color: #db8a10fd
 }
 
 .reservation-room li,
 .reservation-room h3 {
-    color: #003d79;
+    color: #db8a10fd
 }
 
 .reservation-room ul {
@@ -1004,7 +1004,7 @@ footer {
 .contact-container {
     width: 90%;
     padding: 55px 15px 75px 15px;
-    background: rgba(0, 61, 121, 0.9);
+    background: rgba(130, 78, 10);
     margin: 60px auto;
     text-align: center;
 }
