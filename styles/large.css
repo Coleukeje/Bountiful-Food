@@ -130,15 +130,17 @@
   
     .temple-trans-banner {
       left: 50%;
-      width: 400px;
+      width: 550px;
+      height: auto;
+      top: -5px;
     }
     .temple-trans-banner h3 {
       font-size: 33px;
     }
   
     .temple-trans-banner p {
-      font-size: 21px;
-      line-height: 29px;
+      font-size: 18px;
+      line-height: 34px;
     }
   
     .reserve-trans-banner {
