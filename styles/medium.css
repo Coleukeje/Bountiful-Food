@@ -75,6 +75,14 @@
         height: 220px;
         padding: 45px 15px 55px 15px;
     }
+    .reserve-trans-banner-1 {
+        height: 436px;
+        top: 100px;
+        left: 1%;
+        width: 450px;
+        height: 220px;
+        padding: 45px 15px 55px 15px;
+    }
     .reserve-trans-banner h3 {
         font-size: 30px;
     }
